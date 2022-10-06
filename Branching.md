@@ -1,4 +1,4 @@
-[←back to content](https://github.com/pytherik/learning-git/wiki/Basic-Commands-Overview)
+[←back to content](https://github.com/pytherik/learning-git/wiki/Content)
 # Branching
 
 > HEAD is a pointer to the active branch (points on the latest commit by default).   
