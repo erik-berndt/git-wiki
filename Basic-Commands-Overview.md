@@ -8,5 +8,5 @@
 
 - git status
 - git log 
-  - git lg (custom alias created in .config)
+  - git lg (custom alias created in )
 
