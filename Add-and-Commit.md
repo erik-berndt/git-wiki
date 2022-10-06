@@ -16,4 +16,9 @@ Write comment in editor:
 Add all and commit:  
 **$ git commit -a -m 'comment'**  
 
+### amend
+
+$ git commit -m 'initial commit'  
+$ git add forgotten_file  
+$ git commit --amend
 
