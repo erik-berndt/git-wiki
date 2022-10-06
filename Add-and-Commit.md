@@ -1,2 +1,2 @@
-[←back to content](https://github.com/pytherik/learning-git/wiki/Basic-Commands-Overview)
+[←back to content](https://github.com/pytherik/learning-git/wiki/Content)
 # Add and Commit
