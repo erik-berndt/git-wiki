@@ -12,8 +12,3 @@
   - git log --oneline
 - git [branch](https://github.com/pytherik/learning-git/wiki/Branching) branch_name
 
-### amend
-
-$ git commit -m 'initial commit'  
-$ git add forgotten_file  
-$ git commit --amend
