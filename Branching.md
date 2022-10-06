@@ -23,4 +23,8 @@ or
 Delete local branch:  
 **$ git branch -d branch_name**  
 
+or use **-D** for *unmerged* branches  
+
+
+
 
