@@ -13,3 +13,10 @@ Create new branch:
 Switch to branch:  
 **$ git switch branch_name** *(formerly git checkout branch_name)*  
 
+Create and switch directly:  
+**$ git switch -c new_branch**  
+
+Delete local branch:  
+**$ git branch -d branch_name**  
+
+
