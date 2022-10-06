@@ -8,5 +8,5 @@
 
 - git status
 - git log 
-  - git lg (custom alias created in )
+  - git lg (custom alias created in [.config](https://github.com/pytherik/learning-git/wiki/Configuration))
 
