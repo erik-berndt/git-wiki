@@ -10,7 +10,7 @@
 - git log 
   - git lg (custom alias created in [.config](https://github.com/pytherik/learning-git/wiki/Configuration))
   - git log --oneline
-- git [branch](https://github.com/pytherik/learning-git/wiki/Branching) <name>
+- git [branch](https://github.com/pytherik/learning-git/wiki/Branching) branch_name
 
 ### amend
 
