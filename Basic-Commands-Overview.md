@@ -6,3 +6,7 @@
 - git commit -m 'comment'
 - git remote add origin <https//:path to/repository.git>
 
+- git status
+- git log 
+  - git lg (custom alias created in .config)
+
