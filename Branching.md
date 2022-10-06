@@ -16,6 +16,10 @@ Switch to branch:
 Create and switch directly:  
 **$ git switch -c new_branch**  
 
+or  
+**$ git checkout -b new_branch**  
+
+
 Delete local branch:  
 **$ git branch -d branch_name**  
 
