@@ -7,9 +7,10 @@
 The fast **forward merge** is the simplest merge. It merges the another branch to let  
 the master branch catch up with the progress made.  
 **Only works when master stays unmodified.**
-
-`$ (branch) git switch master`  
-`$ (master) git merge branch`
+```
+$ (branch) git switch master  
+$ (master) git merge branch
+``` 
 
 ### Handle conflicts
 
