@@ -8,33 +8,27 @@ and contains the latest commit-hash from that branch.
 
 
 List branches:  
-**$ git branch**
+`$ git branch [-v] [info last commit]` 
 
 Create new branch:  
-**$ git branch new_branch**
+`$ git branch new_branch`
 
 Switch to branch:  
-**$ git switch branch_name** *(formerly git checkout branch_name)*  
+`$ git switch branch_name` *(formerly git checkout branch_name)*  
 
 Create and switch directly:  
-**$ git switch -c new_branch**  
+`$ git switch -c new_branch`  
 
 or  
-**$ git checkout -b new_branch**  
+`$ git checkout -b new_branch`  
 
 
 Delete local branch:  
-**$ git branch -d branch_name**  
+`$ git branch -d branch_name`  
 
-> use **-D** or **-df** for *unmerged* branches  
+> use `-D` or `-df` for *unmerged* branches  
 
 Rename branch:
 > To rename a branch you first must switch into it!  
 
-**$ git branch -M new_name**  
-
-  
-
-
-
-
+`$ git branch -M new_name`  
