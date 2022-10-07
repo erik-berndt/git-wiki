@@ -10,3 +10,21 @@ the master branch catch up with the progress made.
 
 `$ (branch) git switch master`  
 `$ (master) git merge branch`
+
+### Handle conflicts
+
+```
+<<<<<<<< HEAD
+This is the code modified by HEAD:
+some code  
+some more code
+========
+This confliction code from the branch:
+some other code
+>>>>>>>> bug-fix (branch)
+``` 
+- open conflicting files
+- edit file(s) to remove conflicts by deciding which content  
+you want to keep
+- remove conflict markers (<<<, ===, >>>>)
+- git add changes and git commit
