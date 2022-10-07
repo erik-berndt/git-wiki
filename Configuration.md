@@ -11,24 +11,18 @@ git config user.email
 
 # .gitconfig
 
+```
+name = pytherik
+email = erikberndt@gmx.net
 
-name = pytherik  
-email = erikberndt@gmx.net  
+[alias]
+    lg = "log --color --graph --pretty=format:'%Cred%h%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s' --abbrev-commit"
 
-
-[alias]  
-
-       lg = log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) 
-       %C(blue[%an]%C(reset) %C(yellow)%ad%C(reset)%n' 
-
-[color]  
-
-        ui = auto  
-[init]  
-
-        defaultBranch = master
-
+[color]
+    ui = auto
+[init]
+    defaultBranch = master
 [pull]
+    rebase = false
 
-        rebase = false
-
+```
