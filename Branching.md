@@ -14,7 +14,10 @@ Create new branch:
 `$ git branch new_branch`
 
 Switch to branch:  
-`$ git switch branch_name` *(formerly git checkout branch_name)*  
+`$ git switch branch_name` *(formerly git checkout branch_name)*   
+once you switched branches you can toggle  
+`$ git switch -`
+ 
 
 Create and switch directly:  
 `$ git switch -c new_branch`  
