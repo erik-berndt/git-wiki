@@ -29,3 +29,6 @@ some other code
 you want to keep
 - remove conflict markers (<<<, ===, >>>>)
 - git add changes and git commit
+
+If you don't manage resolving a conflict you can abort the merge  
+`$ git merge --abort `  
