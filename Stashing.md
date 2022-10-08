@@ -30,6 +30,8 @@ stash@{2}: WIP on rainbow: 398b643 change fg color
 
 $ (rainbow*) git stash apply stash@{1}        - stash is kept in list
 $ (rainbow*) git stash pop stash@{1}          - stash removed from list
+$ (rainbow*) git stash drop stash@{1}         - remove without or after applying
+$ (rainbow*) git stash clear                  - clear stash
 ```
 
 
