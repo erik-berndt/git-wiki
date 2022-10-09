@@ -3,7 +3,7 @@
 
 ### Local Repositiries
 
-1. Create repository on github - copy URL (HTML or SSH)
+1. Create repository on github - copy URL (HTTPS or SSH)
 
 on your local machine:
 ```
@@ -20,7 +20,7 @@ $ git remote add origin <paste URL>
 $ git push -u origin master/main
 ```
 or  
-2. Create repository on github - add README.md - copy URL (HTML or SSH)
+2. Create repository on github - add README.md - copy URL (HTTPS or SSH)
 
 on your local machine
 ```
@@ -32,6 +32,12 @@ if you have an ssh connection use the SSH-URL of the repository
 ```
 $ git remote add origin git@github.com:username/repository-name.git
 ``` 
+**Changin origin from HTTPS to SSH or vice versa**
+```
+$ git remote remove origin
+$ git remote add origin SSH-URL or HTTPS-URL
+```
+
 **Changing or deleting the passphrase**
 
 `$ ssh-keygen -p`
