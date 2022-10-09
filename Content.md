@@ -7,5 +7,6 @@
 ### [Configuration](https://github.com/pytherik/learning-git/wiki/Configuration)
 ### [Diffing](https://github.com/pytherik/learning-git/wiki/Diffing)
 ### [Timetraveling and Undo](https://github.com/pytherik/learning-git/wiki/Timetraveling-and-Undo)
+### [Github Basics](https://github.com/pytherik/learning-git/wiki/Github-Basics)
 
 
