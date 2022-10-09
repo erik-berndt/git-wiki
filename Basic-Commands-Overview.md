@@ -8,20 +8,20 @@ First make sure you're not in an existing repository
 
 ```
 $ git init <repo>
-$ git cd <repo>
+$ cd <repo>
 ```
 after creating the first file e.g. README.md
 ```
 $ git add <file> or
-$ git add .
-$ git commit -m 'comment'
+$ git add .                - stage your changes
+$ git commit -m 'comment'  - commit staged changes, comment required!
 ```
-Now you're on the master-branch.
+Now you're on the master-branch.  
+You can now push it to a [Github repository.](https://github.com/pytherik/learning-git/wiki/Github-Basics)
 
-
-- git status
-- git log 
-  - git lg (custom alias created in [.config](https://github.com/pytherik/learning-git/wiki/Configuration))
-  - git log --oneline
-- git [branch](https://github.com/pytherik/learning-git/wiki/Branching) branch_name
-
+```
+$ git status         - info about staged and unstaged changes
+$ git log            - info about commit history
+```
+To get a nicer looking output from *git log*
+you can configure shortcuts for aliases in the [.git/config file.](https://github.com/pytherik/learning-git/wiki/Configuration)
