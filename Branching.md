@@ -31,7 +31,6 @@ $ git branch -r
 
 Switch to remote branch:  
 ```
-$ git switch <name> 
 $ git checkout <name>
 ```   
 Detached-HEAD mode:
