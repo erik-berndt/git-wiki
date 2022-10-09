@@ -8,30 +8,59 @@ and contains the latest commit-hash from that branch.
 
 
 List branches:  
-`$ git branch [-v] [info last commit]` 
+``` 
+$ git branch 
+$ git branch -v         - info about last commit
+```
+Switch to branch:  
+```
+$ git switch <name> 
+$ git checkout <name>
+```   
+list all remote branches of a cloned repo
+```
+$ git branch -r 
+  origin/HEAD -> origin/main
+  origin/fantasy
+  origin/food
+  origin/main
+  origin/more-fantasy
+  origin/morefood
+  origin/movies
+```
+
+Switch to remote branch:  
+```
+$ git switch <name> 
+$ git checkout <name>
+```   
+Detached-HEAD mode:
+``` 
+$ git switch origin/<name>
+$ git checkout origin/<name>
+```
+
+once you switched branches you can toggle  
+`$ git switch -`  
+you cannot toggle back to Datached-HEAD mode   
 
 Create new branch:  
-`$ git branch new_branch`
-
-Switch to branch:  
-`$ git switch branch_name` *(formerly git checkout branch_name)*   
-once you switched branches you can toggle  
-`$ git switch -`
- 
-
-Create and switch directly:  
-`$ git switch -c new_branch`  
-
-or  
-`$ git checkout -b new_branch`  
+`$ git branch <name>`
 
 
-Delete local branch:  
-`$ git branch -d branch_name`  
+Create and switch directly: 
+``` 
+$ git switch -c <name>  
+$ git checkout -b <name>  
+```
 
-> use `-D` or `-df` for *unmerged* branches  
+Delete local branch:
+```  
+$ git branch -d <name>  
+$ git branch -D <unmerged branch>  or -df
+```  
 
 Rename branch:
 > To rename a branch you first must switch into it!  
 
-`$ git branch -M new_name`  
+`$ git branch -M <new-name>`  
