@@ -31,11 +31,11 @@ $ git branch -r
 
 Switch to remote branch:  
 ```
+$ git switch <name>
 $ git checkout <name>
 ```   
 Detached-HEAD mode:
 ``` 
-$ git switch origin/<name>
 $ git checkout origin/<name>
 ```
 
