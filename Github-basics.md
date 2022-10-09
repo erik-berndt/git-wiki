@@ -3,7 +3,7 @@
 
 ### Local Repositiries
 
-1. Create repository on github - copy URL
+1. Create repository on github - copy URL (HTML or SSH)
 
 on your local machine:
 ```
@@ -19,16 +19,25 @@ $ git branch -M main                 -optional, changes master to main
 $ git remote add origin <paste URL>
 $ git push -u origin master/main
 ```
-or 
-2. Create repository on github - add README.md - copy URL
+or  
+2. Create repository on github - add README.md - copy URL (HTML or SSH)
 
 on your local machine
 ```
 $ git clone <paste URL>
 $ cd <repository>
-
+``` 
 ### SSH
-git remote add origin git@github.com:username/repository-name.git 
+if you have an ssh connection use the SSH-URL of the repository
+```
+$ git remote add origin git@github.com:username/repository-name.git
+``` 
+**Changing or deleting the passphrase**
+
+`$ ssh-keygen -p`
+will ask for the location, in my case `~/.ssh/id_ed25519`  
+You're now prompted for the old passphrase and the new passphrase.  
+Leave blank for No Passphrase.  
 
 ### Push
 
