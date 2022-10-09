@@ -1,10 +1,23 @@
 [←back to content](https://github.com/pytherik/learning-git/wiki/Content)
 # Basic Commands Overview
 
-- git init
-- git add .
-- git commit -m 'comment'
-- git remote add origin <https//:path to/repository.git>
+Initialize local repository
+
+First make sure you're not in an existing repository  
+`$ git status`  
+
+```
+$ git init <repo>
+$ git cd <repo>
+```
+after creating the first file e.g. README.md
+```
+$ git add <file> or
+$ git add .
+$ git commit -m 'comment'
+```
+Now you're on the master-branch.
+
 
 - git status
 - git log 
