@@ -16,6 +16,8 @@ $ git commit -m 'add README'
 githubs new convention for master is main  
 ```
 $ git branch -M main                 -optional, changes master to main  
+
+##
 $ git remote add origin <paste URL>
 $ git push -u origin master/main
 ```
@@ -61,3 +63,7 @@ $ git push -u origin <branch>
 - branch 
   - select the branch you want to push (master or main or every other existing branch)  
 
+### Fetch
+
+Fetch lets you update your local repository without affecting your local workspace.
+That means you can watch changes in 
