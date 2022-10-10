@@ -69,4 +69,13 @@ Fetch lets you update your local repository without affecting your local workspa
 That means you can watch changes in [detached head mode](https://github.com/pytherik/learning-git/wiki/Branching#detached-head-mode) and if you  
 like them you can pull them to integrate them in your work.  
 ```
-$ git fetch origin <branch>
+$ git fetch origin <branch>  - fetches specific branch
+$ git fetch origin           - fetches all branches
+$ git fetch                  - defaults to git fetch origin
+
+$ git pull origin <branch>   - updates branch
+$ git pull                   - updates the active branch
+$ git pull --all                       all branches    
+```
+
+To update your repository and workspace immediately you can amit the fetching-step.  
