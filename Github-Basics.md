@@ -68,3 +68,5 @@ $ git push -u origin <branch>
 Fetch lets you update your local repository without affecting your local workspace.  
 That means you can watch changes in [detached head mode](https://github.com/pytherik/learning-git/wiki/Branching#detached-head-mode) and if you  
 like them you can pull them to integrate them in your work.  
+```
+$ git fetch origin <branch>
