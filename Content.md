@@ -9,6 +9,5 @@
 #### [Timetraveling and Undo](https://github.com/pytherik/learning-git/wiki/Timetraveling-and-Undo)
 ### [Configuration](https://github.com/pytherik/learning-git/wiki/Configuration)
 ### [Github Basics](https://github.com/pytherik/learning-git/wiki/Github-Basics)
-#### [Github Fetch and Pull](https://github.com/pytherik/learning-git/wiki/Github-Fetch-and-Pull)
 
 
