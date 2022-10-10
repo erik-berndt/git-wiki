@@ -63,7 +63,8 @@ $ git push -u origin <branch>
 - branch 
   - select the branch you want to push (master or main or every other existing branch)  
 
-### Fetch
+### Fetch and Pull
 
-Fetch lets you update your local repository without affecting your local workspace.
-That means you can watch changes in 
+Fetch lets you update your local repository without affecting your local workspace.  
+That means you can watch changes in [detached head mode](https://github.com/pytherik/learning-git/wiki/Branching#detached-head-mode) and if you  
+like them you can pull them to integrate them in your work.  
