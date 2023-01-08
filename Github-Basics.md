@@ -1,7 +1,7 @@
 [←back to content](https://github.com/pytherik/learning-git/wiki/Content)
 # Github basics
 
-### Local Repositiries
+### Local Repositories
 
 1. Create repository on github - copy URL (HTTPS or SSH)
 
