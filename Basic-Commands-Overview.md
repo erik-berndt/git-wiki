@@ -29,6 +29,7 @@ You can now push it to a [Github repository.](https://github.com/pytherik/learni
 ```
 $ git status         - info about staged and unstaged changes
 $ git log            - info about commit history
+$ git log --pretty --oneline
 ```
 To get a nicer looking output from *git log*
 you can configure shortcuts for aliases in the [.git/config file.](https://github.com/pytherik/learning-git/wiki/Configuration)
