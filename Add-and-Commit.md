@@ -2,23 +2,25 @@
 # Add and Commit
 
 Add single files:  
-**$git add filename1 filename2 ...**  
+`$git add filename1 filename2 ...`  
 
 Add all:  
-**$git add .**  
+`$git add .`  
 
 Commit:  
-**$ git commit -m 'comment'**  
+`$ git commit -m 'comment'`  
 
 Write comment in editor:  
-**$ git commit**
+`$ git commit`
 
 Add all and commit:  
-**$ git commit -a -m 'comment'**  
+`$ git commit -a -m 'comment'`  
 
 ### amend
 
+```
 $ git commit -m 'initial commit'  
 $ git add forgotten_file  
 $ git commit --amend
-
+$ git commit -m 'new comment for last commit' --amend
+```
